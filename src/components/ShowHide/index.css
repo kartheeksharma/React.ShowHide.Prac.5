@@ -1,0 +1,56 @@
+/* Write your CSS here */
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: linear-gradient(to right, #fa7257, #fc63a7);
+}
+
+.heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.show-hide-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.name-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  height: 250px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.sh-btn {
+  color: #fc63a7;
+  padding: 20px;
+  font-family: 'Roboto';
+  font-size: 15px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.name {
+  text-align: center;
+  background-color: #fddddb;
+  font-size: 20px;
+  font-family: 'Roboto';
+  border-radius: 10px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 45px;
+  padding-right: 45px;
+}
